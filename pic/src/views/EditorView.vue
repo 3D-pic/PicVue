@@ -26,7 +26,7 @@
         </el-form-item>
 
         <el-form-item label="左右视差">
-          <el-slider v-model="settings.parallax" :min="0" :max="100"></el-slider>
+          <el-slider v-model="settings.parallax" :min="0" :max="50"></el-slider>
         </el-form-item>
 
         <el-form-item label="动画时长（秒）">
@@ -110,7 +110,7 @@ export default {
 
       settings: {
         depth: 5,
-        parallax: 90,
+        parallax: 20,
         duration: 5,
         cameraAngle: 30,
       }
